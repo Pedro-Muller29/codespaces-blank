@@ -1,0 +1,16 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        /usr/bin/t1_server &
+        /usr/bin/t1_html_changer &
+        ;;
+    stop)
+        exit 1
+        ;;
+    *)
+        exit 1
+        ;;
+esac
+
+exit 0
