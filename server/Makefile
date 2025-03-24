@@ -1,6 +1,6 @@
 include ../.config
 
-CC := $(i686-linux-gcc-path)
+CC := $(i686_linux_gcc_path)
 
 # Source file and output file
 SRC := simple_http_server.c

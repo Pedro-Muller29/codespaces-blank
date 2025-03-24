@@ -86,7 +86,7 @@ int main(void)
 		 
 			if (strstr(buf, "GET")) {
 				/* open the html page file */
-				fd = fopen("/var/www/index.html", "r");
+				fd = fopen("/var/www/t1/index.html", "r");
 				if (!fd) {
 					write(conn, http_error, strlen(http_error));
 				} else {
